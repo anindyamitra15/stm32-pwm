@@ -32,5 +32,8 @@
 *.app
 
 # Eclipse Specific
+.metadata
+.settings
 [Rr]elease
 [Dd]ebug
+.launch
