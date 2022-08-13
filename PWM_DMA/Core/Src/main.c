@@ -99,7 +99,7 @@ int main(void) {
 	pwmData[7] = 700;
 	pwmData[8] = 800;
 	pwmData[9] = 900;
-	pwmData[10] = 1000;
+	pwmData[10] = 2000;
 	HAL_TIM_PWM_Start_DMA(&htim2, TIM_CHANNEL_2, (uint32_t*) pwmData, 10);
 	/* USER CODE END 2 */
 
