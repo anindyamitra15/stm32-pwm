@@ -98,8 +98,8 @@ int main(void) {
 	pwmData[6] = 600;
 	pwmData[7] = 700;
 	pwmData[8] = 800;
-	pwmData[9] = 900;
-	pwmData[10] = 2000;
+	pwmData[9] = 1000;
+
 	HAL_TIM_PWM_Start_DMA(&htim2, TIM_CHANNEL_2, (uint32_t*) pwmData, 10);
 	/* USER CODE END 2 */
 
@@ -168,7 +168,7 @@ static void MX_TIM2_Init(void) {
 
 	/* USER CODE END TIM2_Init 1 */
 	htim2.Instance = TIM2;
-	htim2.Init.Prescaler = 9 - 1;
+	htim2.Init.Prescaler = 72 - 1;
 	htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
 	htim2.Init.Period = 1000 - 1;
 	htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
