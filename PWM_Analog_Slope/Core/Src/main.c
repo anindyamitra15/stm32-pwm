@@ -94,14 +94,14 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 	while (1) {
-		for (int up = 0; up < 1000; up += 5) {
+		for (int up = 0; up < 1000; up += 20) {
 			TIM2->CCR2 = up;
-			HAL_Delay(1);
+			HAL_Delay(6);
 		}
 		HAL_Delay(300);
-		for (int down = 1000; down >= 0; down -= 5) {
+		for (int down = 1000; down >= 0; down -= 10) {
 			TIM2->CCR2 = down;
-			HAL_Delay(1);
+			HAL_Delay(3);
 		}
     /* USER CODE END WHILE */
 
