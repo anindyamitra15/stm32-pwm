@@ -23,5 +23,9 @@ STM32F103C8T6 [Black Pill](https://stm32-base.org/boards/STM32F103C8T6-Black-Pil
         - Memory to Peripherals
         - Increment memory address Half word
         - Circular Mode
-
+## Have a look at the Logic Analyser output
 ![Logic Analyser Snap](./Results/Logic_Analyser.png)
+## Demo with LED 
+![Demo](./Results/demo.gif)
+## Logic Analyser zoomed
+![Logic_Analyser](./Results/logic-analyser.gif)
