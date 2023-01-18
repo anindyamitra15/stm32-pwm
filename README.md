@@ -29,3 +29,9 @@ Feeding the values from an array containing a lookup table of different duty cyc
 ![Demo](./PWM_DMA/Results/demo.gif)
 ![Logic Analyser](./PWM_DMA/Results/logic-analyser.gif)
 <br>*[A very slow PWM with varying duty cycle]*
+
+<hr>
+
+# Other experiments:
+
+Also checkout my other works with STM32F1: [STM32F103 RTOS](https://github.com/anindyamitra15/stm32-rtos), [STM32F103 UART](https://github.com/anindyamitra15/stm32-uart) and, [STM32F1 GPIO Alternate Functions](https://github.com/anindyamitra15/stm32-gpio-modes)
