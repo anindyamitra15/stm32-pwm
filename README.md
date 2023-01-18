@@ -1,4 +1,4 @@
-# STM 32 PWM Modes
+# STM32 PWM Modes
 
 ## Introduction
 Experimenting with various PWM modes on STM32F103C8T6.
